@@ -40,6 +40,10 @@ page to browser.
 **Server.Execute**
 - Server.Execute is used to begin excuting a new webform while still displaying the current web Form
 
-
+Ex:
+protected void Button1_Click(object sender, EventArgs e)</br>
+ {</br>
+    Server.Execute("WebForm2.aspx");</br>
+}</br>
 
 
