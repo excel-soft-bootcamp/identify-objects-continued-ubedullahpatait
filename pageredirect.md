@@ -53,6 +53,7 @@ protected void Button1_Click(object sender, EventArgs e)
     Server.Execute("WebForm2.aspx");
 }
 ```
+- In the above syntax default.aspx is a source web form from where we have navigated to Home.aspx using server.exceute. When the control finds the code block of navigation it moved the control and starts processing the Home.aspx but does not leave the control from default.aspx and after completion of the target web form control again move to the source web form and execute the further code processing on default.aspx page.
 
 
 **HyperLink**
