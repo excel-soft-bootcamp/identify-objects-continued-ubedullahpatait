@@ -31,7 +31,7 @@ page to browser.
 - Browser Url doesn't change
 - when we need  to redirect between pages of
   the same server
-- Server.Transfer allows only relative URL
+- Server.Transfer allows only relative URL<br/>
 
 
   Ex:
