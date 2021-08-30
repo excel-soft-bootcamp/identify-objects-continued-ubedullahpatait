@@ -173,6 +173,10 @@ Control state is based on the custom control option. For expected results from C
 
 **SessionState**<br/>
  session helps to maintain the user state and data all over the application by storing the information on the server memory. Also a session can store any kind of information or object on the server side and is accessible in the entire website.
+ - session state are single user global data
+ - session state variable are cleared when the user session time out
+ - the default is 20 minute 
+ - this configurable in webconfig
 
 ```C#
  protected void Button1_Click(object sender, EventArgs e)
@@ -199,6 +203,8 @@ Control state is based on the custom control option. For expected results from C
 
 **Application State**<br/>
 Application State is a state management technique. Application State is stored in the memory of the the server and is faster than storing and retrieving information in a database. Session sate is specific for a single user session, but Application State is for all users and sessions. Application State does not have a default expiration period. When we close the worker process the application object will be lost. Technically the data is shared amongst users by a HTTPApplcationState class and the data can be stored here in a key/value pair. It can also be accessed using the application property of the HTTPContext class.
+- Application State are availaible across all pages and  across all session.
+- Application state are multi user global data
 
 ```c#
  protected void Button1_Click(object sender, EventArgs e)
