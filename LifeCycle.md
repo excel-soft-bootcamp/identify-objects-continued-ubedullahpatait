@@ -11,7 +11,12 @@
 | **Validation**       | Validate method of the validation control is called and on its successful execution, the IsValid property of the page is set to true.         |
 | **Postback event handling**       |  If the request is a postback (old request), the related event handler is invoked.   event is triger when same page is loaded again            |
 | **Page rendering**       |Before rendering, view state is saved for the page and all controls. During the rendering stage, the page calls the Render method for each control, providing a text writer that writes its output to the OutputStream object of the page's Response property.             |
-| **Unload**       |At this stage the requested page has been fully rendered and is ready to terminate.at this stage all properties are unloaded and cleanup is performed.          |
+| **Unload**       |At this stage the requested page has been fully rendered and is ready to terminate.at this stage all properties are unloaded and cleanup is performed.         
+
+|
+
+
+# page Life cycle Event
 
 **PreInit**
 - Check the IsPostBack property to determine whether this is the first time the page is being processed.
