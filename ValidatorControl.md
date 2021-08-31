@@ -1,4 +1,6 @@
 # Validation Control
+   Validation control are used to validate user input data. data format data type and data range is used for validation
+   
 - RequiredFieldValidation Control
 - CompareValidator Control
 - RangeValidator Control
