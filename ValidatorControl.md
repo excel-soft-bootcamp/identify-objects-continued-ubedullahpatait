@@ -101,3 +101,6 @@
 ```
 **ValidationSummary**
 The ValidationSummary class is used to summarize the error messages from all validators on a Web page 
+```C#
+<asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red"/>
+```
