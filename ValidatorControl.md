@@ -47,7 +47,7 @@
   <td>
   <asp:TextBox ID="txtdob" runat="server" ></asp:TextBox>
 <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtdob" Display="Dynamic" 
-  ErrorMessage="Age must be between the 18 to 45" ForeColor="Red" SetFocusOnError="True" Type="Date"></asp:RangeValidator>
+  ErrorMessage="Age must be between the 18 to 45" MaximumValue= 18 MinimumValue=45 ForeColor="Red" SetFocusOnError="True" Type="Date"></asp:RangeValidator>
     </td>
    </tr>
 ```
