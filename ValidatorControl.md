@@ -51,13 +51,7 @@
     </td>
    </tr>
 ```
-```C#
- protected void Page_Load(object sender, EventArgs e)
-        {
-            RangeValidator1.MinimumValue = DateTime.Now.AddYears(-45).ToShortDateString();
-            RangeValidator1.MaximumValue= DateTime.Now.AddYears(-18).ToShortDateString();
-        }
-```
+
 
 **RegularExpressionValidator Control**
 - expression evaluator will be used when we want value in particular format foe ex: email id must be in particular format or @ then some
