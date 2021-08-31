@@ -1,4 +1,4 @@
-# Validator Control
+# Validation Control
 - RequiredFieldValidation Control
 - CompareValidator Control
 - RangeValidator Control
