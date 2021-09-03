@@ -8,7 +8,8 @@ AJAX stand for Asynchronous Javascript and XML
 - Recieve data from server-after the page has loaded
 
 **Script Manager**
-The ScripManager Control manages the partial page updates for UpdatPanel controls that are on the ASP.NET web page or inside a user control on the web page. This control manages the client script for AJAX-enabled ASP.NET web page and ScripManager control support the feature as partial-page rendering and web-service calls.
+- The ScripManager Control manages the partial page updates for UpdatPanel controls that are on the ASP.NET web page or inside a user control on the web page. 
+- you must use a scriptManager control on a page enable the following feature of asp.net ajax.
 
 **Update Panel Control**
 You can refresh the selected part of the web page by using UpdatePanel control, Ajax updatepanel control contains a two child tags that is ContentTemplate and Triggers. In a ContenTemplate tag we used to place the user controls and the Trigger tag allows you to define certain triggers which will make the panel update its content.
