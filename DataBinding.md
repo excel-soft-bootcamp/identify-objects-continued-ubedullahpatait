@@ -45,5 +45,5 @@ The ListView control displays columns and rows of data and allows sorting and pa
 **DropDownList**
 control is a collection of listItem objects..Binding to data source controls, such as SqlDataSource
 
-**ListBox**
+
 
