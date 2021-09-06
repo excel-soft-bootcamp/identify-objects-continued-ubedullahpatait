@@ -28,7 +28,6 @@ Gridview is a control in asp.net, displays the values of a data source( sql serv
 
 - Binding to data source controls, such as SqlDataSource.
 - Built-in sort capabilities.
-- Built-in update and delete capabilities.
 - Built-in paging capabilities.
 - Built-in row selection capabilities.
 - Multiple key fields.
@@ -40,7 +39,7 @@ The DetailsView control is used to display a single record from a data source in
  The FormView control is used to display a single record from a data source. It is similar to the DetailsView control, except it displays user-defined templates instead of row fields. ... Binding to data source controls, such as SqlDataSource and ObjectDataSource.we can use the FormView control to display, page,
 
 **ListView**
-The ListView control displays columns and rows of data and allows sorting and paging. It is by far the most popular data display control, and is ideal for understanding how data display controls interact with data retrieval controls and code.
+The ListView control displays columns and rows of data and allows sorting and paging. It is by far the most popular data display control, and is ideal for understanding how data display controls interact with data retrieval controls and code Built-in insert, edit and delete capabilities.
 
 **DropDownList**
 control is a collection of listItem objects..Binding to data source controls, such as SqlDataSource
